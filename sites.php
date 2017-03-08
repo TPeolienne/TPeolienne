@@ -33,11 +33,15 @@
 			<section id="Accueil">
 				<h1>Infos</h1>
 				<div class="dep">
-					<p>
-          <?php
-          
-          ?>
-          </p>
+			<p>
+         		 <?php
+          			$hostname='localhost';
+				$user='root';
+				$password='mysql';
+				$dbname='proeole';
+				$conBdd= mysqli_connect($hostname, $user, $password, $dbname);
+        		  ?>
+          		</p>
 				</div>
 			</section>
 		</article>
